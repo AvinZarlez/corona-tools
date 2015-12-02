@@ -1,7 +1,7 @@
 {
-  "name": "unity-tools",
-  "displayName": "Unity Tools",
-  "description": "Various tools to help with Unity development",
+  "name": "corona-tools",
+  "displayName": "Corona Tools",
+  "description": "Various tools to help with Corona development",
   "version": "0.0.1",
   "publisher": "TobiahZ",
   "engines": {
@@ -11,29 +11,29 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.openUnityDocs",
-    "onCommand:extension.searchUnityDocs"
+    "onCommand:extension.openCoronaDocs",
+    "onCommand:extension.searchCoronaDocs"
   ],
   "main": "./out/src/extension",
   "contributes": {
     "commands": [
       {
-        "command": "extension.openUnityDocs",
-        "title": "Open Unity Documentation"
+        "command": "extension.openCoronaDocs",
+        "title": "Open Corona Documentation"
       },
       {
-        "command": "extension.searchUnityDocs",
-        "title": "Search Unity Documentation"
+        "command": "extension.searchCoronaDocs",
+        "title": "Search Corona Documentation"
       }
     ],
     "keybindings": [
       {
         "key": "ctrl+'",
-        "command": "extension.openUnityDocs"
+        "command": "extension.openCoronaDocs"
       },
       {
         "key": "ctrl+shift+'",
-        "command": "extension.searchUnityDocs"
+        "command": "extension.searchCoronaDocs"
       }
     ]
   },

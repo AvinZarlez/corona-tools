@@ -1,8 +1,8 @@
 import * as vscode from 'vscode'; 
 let open = require("open");
 
-let search_blank_url 	= "http://docs.unity3d.com/ScriptReference/30_search.html";
-let search_url 			= search_blank_url+"?q=";
+let search_blank_url 	= "https://docs.coronalabs.com/";
+let search_url 			= "https://cse.google.com/cse?cx=009283852522218786394%3Ag40gqt2m6rq&q=";
 
 function openDocErrorMessage (str) {
 	vscode.window.showErrorMessage("Error: "+str,"Open Docs").then(function (item) {
@@ -16,10 +16,10 @@ function openDocErrorMessage (str) {
 export function activate(context: vscode.ExtensionContext) {
 
 	//Tell the user the extension has been activated.
-	console.log('Unity Tools extension is now active!'); 
+	console.log('Corona Tools extension is now active!'); 
 
-	// Open Unity Documentation, when you already have something you want to search selected
-	var open_unity_docs = vscode.commands.registerTextEditorCommand("extension.openUnityDocs",
+	// Open Corona Documentation, when you already have something you want to search selected
+	var open_corona_docs = vscode.commands.registerTextEditorCommand("extension.openCoronaDocs",
 		(textEditor: vscode.TextEditor, edit: vscode.TextEditorEdit) => {
 		
 		// selection[0] is the start, and selection[1] is the end
@@ -55,15 +55,15 @@ export function activate(context: vscode.ExtensionContext) {
 		open(search_url+line);
 		
 	});
-	context.subscriptions.push(open_unity_docs);
+	context.subscriptions.push(open_corona_docs);
 	
-	var search_unity_docs = vscode.commands.registerCommand("extension.searchUnityDocs",()=>{
+	var search_corona_docs = vscode.commands.registerCommand("extension.searchCoronaDocs",()=>{
 		vscode.window.showInputBox({
-			prompt: "Search the Unity Documentation:"
+			prompt: "Search the Corona Documentation:"
 		}).then((result) => {
 			//Use the node module "open" to open a web browser
 			open(search_url+result);
 		});
 	});
-	context.subscriptions.push(search_unity_docs);
+	context.subscriptions.push(search_corona_docs);
 }
