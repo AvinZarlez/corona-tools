@@ -36,7 +36,7 @@ export function activate(context: vscode.ExtensionContext) {
 			//Get the whole line of code with the selection
 			let line = textEditor.document.lineAt(selection.start.line).text;
 		
-			search.openUnityDocs(line, selection.start.character, selection.end.character)
+			search.openCoronaDocs(line, selection.start.character, selection.end.character)
 	});
 	context.subscriptions.push(open_corona_docs);
 	
