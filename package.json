@@ -3,7 +3,7 @@
   "displayName": "Corona Tools",
   "description": "Various tools to help with Corona development",
   "version": "0.0.1",
-  "publisher": "TobiahZ",
+  "publisher": "Tobiah",
   "engines": {
     "vscode": "^0.10.1"
   },
@@ -45,9 +45,10 @@
   },
   "devDependencies": {
     "typescript": "^1.6.2",
-    "vscode": "0.10.x"
+    "vscode": "^0.10.x"
   },
   "dependencies": {
     "open": "^0.0.5"
-  }
+  },
+  "icon": "Corona.png"
 }
