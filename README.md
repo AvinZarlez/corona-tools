@@ -1,7 +1,8 @@
 # Corona Tools for Visual Studio Code
+[![Build Status](https://travis-ci.org/TobiahZ/corona-tools.svg?branch=master)](https://travis-ci.org/TobiahZ/corona-tools)
 ## What this extension is
 
-This is an *unofficial* extention created by Tobiah Zarlez, and is not affiliated in any way with Corona Labs. 
+This is an **unofficial** extention created by Tobiah Zarlez, and is not affiliated in any way with Corona Labs. 
 
 The goal of this extention is to add miscellaneous functionality to Visual Studio Code for Corona developers.
 
