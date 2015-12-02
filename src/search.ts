@@ -29,11 +29,7 @@ export function prepareInput(input: string, start: number, end: number) {
 	return input;
 }
 
-<<<<<<< HEAD
 export function openCoronaDocs (input: string, start: number, end: number) {	
-=======
-export function openUnityDocs (input: string, start: number, end: number) {	
->>>>>>> 1caab2c76fd1ca781db20ad39166d585ad59a39a
 	//Use the node module "open" to open a web browser
 	openURL(prepareInput(input,start,end));
 }
