@@ -1,5 +1,5 @@
-let search_blank_url 	= "http://docs.unity3d.com/ScriptReference/30_search.html";
-let search_url 			= search_blank_url+"?q=";
+let search_blank_url 	= "https://docs.coronalabs.com/";
+let search_url 			= "https://cse.google.com/cse?cx=009283852522218786394%3Ag40gqt2m6rq&q=";
 
 //Open a URL using the npm module "open"
 let open = require("open");
@@ -29,7 +29,7 @@ export function prepareInput(input: string, start: number, end: number) {
 	return input;
 }
 
-export function openUnityDocs (input: string, start: number, end: number) {	
+export function openCoronaDocs (input: string, start: number, end: number) {	
 	//Use the node module "open" to open a web browser
 	openURL(prepareInput(input,start,end));
 }
