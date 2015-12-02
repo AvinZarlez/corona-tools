@@ -1,7 +1,9 @@
 # Corona Tools for Visual Studio Code
 ## What this extension is
 
-The goal of this extention is to add miscellaneous functionality to Visual Studio Code for Corona developers
+This is an *unofficial* extention created by Tobiah Zarlez, and is not affiliated in any way with Corona Labs. 
+
+The goal of this extention is to add miscellaneous functionality to Visual Studio Code for Corona developers.
 
 ## What this extension isn't
 
