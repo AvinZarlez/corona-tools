@@ -44,8 +44,10 @@ export function activate(context: vscode.ExtensionContext) {
 		vscode.window.showInputBox({
 			prompt: "Search the Corona Documentation:"
 		}).then((result) => {
-			//Use the node module "open" to open a web browser
-			search.openURL(result);
+			if (result != undefined) {	
+				//Use the node module "open" to open a web browser
+				search.openURL(result);
+			}
 		});
 	});
 	context.subscriptions.push(search_corona_docs);
