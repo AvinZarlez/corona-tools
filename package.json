@@ -2,7 +2,7 @@
   "name": "corona-tools",
   "displayName": "Corona Tools",
   "description": "Various tools to help with Corona development",
-  "version": "0.0.10",
+  "version": "0.1.0",
   "publisher": "Tobiah",
   "engines": {
     "vscode": "^0.10.1"
