@@ -16,6 +16,14 @@
   "categories": [
     "Other"
   ],
+  "bugs": "https://github.com/TobiahZ/corona-tools/issues",
+  "keywords": [
+    "corona",
+    "coronaSDK",
+    "lua",
+    "docs",
+    "documentation"
+  ],
   "activationEvents": [
     "onCommand:extension.openCoronaDocs",
     "onCommand:extension.searchCoronaDocs"
