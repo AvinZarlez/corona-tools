@@ -14,6 +14,14 @@ This is not a comprehensive set of tools for Corona development, nor does it pro
 
 Possibly! Let me know, I'd love to hear your suggestions on what tools you'd like to see added to this collection.
 
+## How to install
+
+You can install this extension directly from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Tobiah.corona-tools).
+
+Launch VS Code Quick Open (Ctrl+P) and copy/paste the following command:
+
+> ext install corona-tools
+
 ## Feature list:
 ### Open Corona Documentation
 Use the "Open Corona Documentation" command (`Cmd+'` on OSX or `Ctrl+'` on Windows and Linux) to open the Corona Documentation for the currently selected class.
