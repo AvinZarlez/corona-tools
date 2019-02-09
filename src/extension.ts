@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 import * as search from './search';
 
-function openDocErrorMessage (str) {
+function openDocErrorMessage (str: string) {
 	return vscode.window.showErrorMessage("Error: " + str, "Open Docs").then((item) => {
 		if (item === "Open Docs") {
 			search.openURL();

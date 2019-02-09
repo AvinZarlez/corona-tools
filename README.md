@@ -1,4 +1,5 @@
 # Corona Tools for Visual Studio Code
+
 [![Build Status](https://travis-ci.org/TobiahZ/corona-tools.svg?branch=master)](https://travis-ci.org/TobiahZ/corona-tools) [![Dependency Status](https://dependencyci.com/github/TobiahZ/corona-tools/badge)](https://dependencyci.com/github/TobiahZ/corona-tools)
 
 [![Marketplace Version](https://vsmarketplacebadge.apphb.com/version/Tobiah.corona-tools.svg)](https://marketplace.visualstudio.com/items?itemName=Tobiah.corona-tools)
