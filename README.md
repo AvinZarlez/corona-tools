@@ -1,5 +1,10 @@
 # Corona Tools for Visual Studio Code
 [![Build Status](https://travis-ci.org/TobiahZ/corona-tools.svg?branch=master)](https://travis-ci.org/TobiahZ/corona-tools) [![Dependency Status](https://dependencyci.com/github/TobiahZ/corona-tools/badge)](https://dependencyci.com/github/TobiahZ/corona-tools)
+
+[![Marketplace Version](https://vsmarketplacebadge.apphb.com/version/Tobiah.corona-tools.svg)](https://marketplace.visualstudio.com/items?itemName=Tobiah.corona-tools)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/Tobiah.corona-tools.svg)](https://marketplace.visualstudio.com/items?itemName=Tobiah.corona-tools)
+[![Rating](https://vsmarketplacebadge.apphb.com/rating/Tobiah.corona-tools.svg)](https://marketplace.visualstudio.com/items?itemName=Tobiah.corona-tools)
+
 ## What this extension is
 
 This is an **unofficial** extention created by Tobiah Zarlez, and is not affiliated in any way with Corona Labs. 
