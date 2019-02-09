@@ -52,3 +52,5 @@ export function activate(context: vscode.ExtensionContext) {
 	});
 	context.subscriptions.push(search_corona_docs);
 }
+
+export function deactivate() {}
