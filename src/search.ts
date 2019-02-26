@@ -1,12 +1,14 @@
+import * as vscode from 'vscode';
+
 let search_blank_url 	= "https://docs.coronalabs.com/";
 let search_url 			= "https://cse.google.com/cse?cx=009283852522218786394%3Ag40gqt2m6rq&q=";
 
-//Open a URL using the npm module "open"
-let open = require("open");
-export function openURL (s?: string) {
+export async function openURL (s?: string) {
 	if (!s) { s = search_blank_url; }
 	else { s = search_url+s; }
-	open(s);
+
+	await vscode.env.openExternal(vscode.Uri.parse(s));
+
 	return true;
 }
 

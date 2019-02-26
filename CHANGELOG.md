@@ -7,3 +7,7 @@ All notable changes to the "corona-tools" extension will be documented in this f
 ### Fixed
 
 - Updated package.json to new standards
+
+### Removed
+
+- Removed the opn requirement, using new internal open external API
