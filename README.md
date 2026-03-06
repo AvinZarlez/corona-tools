@@ -1,3 +1,7 @@
+# THIS EXTENSION IS NO LONGER SUPPORTED - THIS REPO IS ARCHIVED
+
+Below is the original readme for reference:
+
 # Corona Tools for Visual Studio Code
 
 [![Build Status](https://travis-ci.org/TobiahZ/corona-tools.svg?branch=master)](https://travis-ci.org/TobiahZ/corona-tools) [![Dependency Status](https://dependencyci.com/github/TobiahZ/corona-tools/badge)](https://dependencyci.com/github/TobiahZ/corona-tools)
